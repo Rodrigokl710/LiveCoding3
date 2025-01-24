@@ -1,0 +1,30 @@
+package ManzanasNaranjas;
+import java.util.Scanner;
+
+public class Cajas {
+    
+    private int manzanas;
+    private int naranjas;
+
+    public Cajas(int manzanas, int naranjas) {
+        this.manzanas = manzanas;
+        this.naranjas = naranjas;
+    }
+
+	public static void main(String[] args) {
+
+	    Scanner s = new Scanner(System.in);
+		System.out.println("Introduzca el numero de manzanas: ");
+	    Scanner s1 = new Scanner(System.in);
+	    int manzanas = s.nextInt();
+	    
+	    System.out.println("Introduzca el numero de naranjas: ");
+	    Scanner s2 = new Scanner(System.in);
+	    int naranjas = s.nextInt();
+	  	
+	   
+	
+		    }
+	        
+	    
+	}
